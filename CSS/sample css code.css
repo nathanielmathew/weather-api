@@ -1,0 +1,17 @@
+.header {
+	width: 782px; height: 150px;
+	/* DEFAULTS TO SUNNY */
+	background: url(images/header-sunny.png) no-repeat center center black;
+	}
+	.header-rain {
+		background: url(images/header-rain.png) no-repeat center center black;
+	}
+	header-snow {
+		background: url(images/header-snow.png) no-repeat center center black;
+	}
+	.header-sunny, .header-fair {
+		background: url(images/header-sunny.png) no-repeat center center black;
+	}
+	.header-partly-cloudy, .header-cloudy, .header-mostly-cloudy {
+		background: url(images/header-partlycloudy.png) no-repeat center center black;
+}
