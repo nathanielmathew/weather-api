@@ -10,17 +10,21 @@
 <body>
 	 <h1 id="heading" class="h1 header">WEATHER FORECAST API 1.0</h1>
 	 <h4 id="SOSC" class="h4 SOSC">By SOSC</h4>
-		<h2>Enter Place Name</h2>
-	 <div id= "Searchbox" class="div Searchbox" align="center">
-	 <input type="text" id="go" placeholder="Search.." size=70%>
-	 <button type="submit" onclick="search()"><i>Check Weather</i></button>
+		<h3>Enter Place Name</h3>
+	 <div id= "Searchbox" align="center">
+	 <input type="text" class="div searchbox" id="go" placeholder="Search.." size=70%>
+	 <button type="submit" class="button find" onclick="search()"><i>Check Weather</i></button>
      </div>
 
      <div id="info" class="div Parameters">
-     	<h3>Place Name:<h3 id="place">-</h3></h3>
-     	<h5 id="weather">Weather:-</h5>
-     	<h5 id="maxtemp">Max Temperature:-</h5>
-     	<h5 id="mintemp">Min Temperature:-</h5>
+     	<h5>PLACE:</h5> 
+            <div id="place" class="div entity">-</div>
+     	<h5>WEATHER:</h5>
+            <div id="weather" class="div entity">-</div>
+     	<h5>MAXIMUM TEMPERATURE:</h5>
+            <div id="maxtemp" class="div entity">-</div>
+     	<h5>MINIMUM TEMPERATURE:</h5>
+            <div  id="mintemp" class="div entity">-</div>
 
      </div>
 

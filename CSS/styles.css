@@ -1,22 +1,43 @@
 body{
     text-align: center;
-    background: #a0e8cf;
+    background: #0bde97;
     font-family: sans-serif;
-    font-weight: 100;
+    font-size: 25px;
+    color: #055b3e;
 }
 
 .SOSC{
-  color: #191919;
-  font-size: 25px;
+  color: #055b3e;
+  font-size: 15px;
+  font-family: sans-serif;
 
 }
 
 .header{
-  color: #191919;
+  color: #055b3e;
   font-size: 40px;
+  font-family: sans-serif;
 
+}
+.searchbox{
+      border: 2px;
+    border-radius: 5px;
+}
+.find{
+  background: #0bde97;
+  border-radius: 10px;
+  border-bottom-color: #055b3e;
+  border-top-color: #055b3e;
+  border-left-color: #055b3e;
+  border-right-color: #055b3e;
 }
 .Parameters{
 	height: 70%;
 	font-size: 20px;
+  color: #055b3e;
+}
+.entity{
+  font-family: sans-serif;
+  color: #055b3e;
+  font-size: 35px;
 }
