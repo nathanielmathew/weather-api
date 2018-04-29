@@ -17,8 +17,8 @@ fetch(url)
 
             .then(function(data){ document.getElementById("weather").innerHTML=data.coord.weather;
 	
-document.getElementById("maxtemp").innerHTML=data.main.maxtemp;,
-	document.getElementById("mintemp").innerHTML=data.main.mintemp;     });
+document.getElementById("maxtemp").innerHTML=data.main.temp_max;,
+	document.getElementById("mintemp").innerHTML=data.main.temp_min;     });
         } 
 	
 	
