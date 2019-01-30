@@ -1,43 +1,46 @@
 body{
     text-align: center;
-    background: #0bde97;
+    background: #130e25;
     font-family: sans-serif;
     font-size: 25px;
-    color: #055b3e;
+    color: white;
 }
 
 .SOSC{
-  color: #055b3e;
+  color: #50fd51;
   font-size: 15px;
   font-family: sans-serif;
 
 }
 
 .header{
-  color: #055b3e;
-  font-size: 40px;
-  font-family: sans-serif;
+  color: #50fd51;
+  font-size: 50px;
+  font-family: monospace;
 
 }
 .searchbox{
-      border: 2px;
-    border-radius: 5px;
+    border: 2px;
+    border-radius: 7px 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 .find{
-  background: #ffffff;
-  border-radius: 10px;
-  border-bottom-color: #055b3e;
-  border-top-color: #055b3e;
-  border-left-color: #055b3e;
-  border-right-color: #055b3e;
+  background: #50fd51;
+  font-family: monospace;
+  font-size: 20px;
+  color: #090651;
+  border-radius: 7px 25px;
+  border-color: #090651;
+  padding: 10px;
 }
 .Parameters{
 	height: 70%;
 	font-size: 20px;
-  color: #055b3e;
+  color: white;
 }
 .entity{
   font-family: sans-serif;
-  color: #055b3e;
+  color: #50fd51;
   font-size: 35px;
 }
